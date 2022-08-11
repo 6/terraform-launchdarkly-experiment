@@ -9,6 +9,8 @@ export TF_VAR_launchdarkly_project_key=default
 export TF_VAR_launchdarkly_access_token=...your-access-token...
 ```
 
+Run `terraform init` to initialize Terraform and install the LaunchDarkly provider.
+
 Next, optionally modify the `feature-flags.tf` file to customize what kind of feature flags you want to add/modify and how you want to target them.
 
 Finally, plan (review changes) and apply the changes:
